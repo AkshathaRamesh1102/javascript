@@ -1,0 +1,113 @@
+.{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color: pink;
+     
+}
+
+h1{
+    font-size: 100px;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: royalblue;
+    margin:50px;
+}
+
+.first{
+    display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        padding: 5px;
+        margin: 10px;
+        border-bottom: 4px solid black;
+        border-top: 4px solid black;
+
+}
+
+.toadd{
+    text-align: center;
+        padding: 5px;
+        margin: 10px;
+        border-radius:30px;
+        margin: 10 px;
+        border: white;
+        width: 30%;
+        height: 25%;
+        outline:none;
+
+}
+
+.addButton{
+    text-align: center;
+    background-color: blue;
+    padding: 5px;
+    margin: 10px;
+    
+    margin: 10 px;
+    color:black;
+    font-size: 25px;
+    outline:none;
+    cursor: pointer;
+}   
+
+.item{
+    display: flex;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        padding: 5px;
+        margin: px;
+       
+}
+
+.item_name{
+    text-align: center;
+    background-color: transparent;
+    padding: 5px;
+    margin: 10px;
+    border-bottom:2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+
+
+    width: 30%;
+    height: 25%;
+    outline:none;
+}
+
+.editButton{
+
+    text-align: center;
+    background-color:green;
+    padding: 5px;
+    margin: 10px;
+    
+    margin: 10 px;
+    color: black;
+    font-size: 25px;
+    outline:none;
+    cursor: pointer;
+
+  
+}
+
+.removeButton{
+
+    text-align: center;
+    background-color: red;
+    padding: 5px;
+    margin: 10px;
+   color: black;
+    font-size: 25px;
+    outline:none;
+    cursor: pointer;
+    
+}
